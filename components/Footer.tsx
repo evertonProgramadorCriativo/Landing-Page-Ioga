@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#4F463D] mt-20 text-white">
+    <footer className="bg-[#4F463D]  text-white">
       <div className="max-w-6xl mx-auto px-4 py-10 grid gap-8 md:grid-cols-4">
         {/* Logo / Sobre */}
         <div>
@@ -52,7 +52,7 @@ export default function Footer() {
             <span>Facebook</span>
             <span>Twitter</span>
           </div>
-          <div className="flex justify-around w-33 pt-6">
+          <div className="flex justify-around w-[82%] pt-4  ">
             <Image src="/Inst_Icon.png" alt="" width={25} height={30} />
             <Image src="/TG_Icon.png" alt="" width={25} height={30} />
             <Image src="/twitter.jpg" alt="" width={25} height={30} />
@@ -67,7 +67,7 @@ export default function Footer() {
           padding: "44px 10px",
           color: "white",
           borderTop: "2px solid white",
-          fontSize: "16px",
+          fontSize: "20px",
         }}
       >
         © 2026 santosha. All rights reserved.

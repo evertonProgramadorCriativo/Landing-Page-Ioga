@@ -6,10 +6,26 @@ export default function Home() {
     <main>
       <Header />
 
-      <div className="pt-20 text-center">
-        <h1 className="text-4xl font-bold mt-10 ">
-          Landing Page Yoga
-        </h1>
+      <div className="text-center bg-[url(/image.png)] bg-cover bg-top h-238.25 flex items-center justify-center">
+        <div className="flex items-center justify-center flex-col bg-opacity-50 p-6 rounded-lg">
+          <h1 className="text-6xl leading-15  font-semibold text-white  font-syncopate">
+            Yoga for Body & Mind
+          </h1>
+          <span className="text-white text-2xl mt-12 mb-4 text-white-600 line-height-6">
+            Find balance in the heart of the city
+          </span>
+          <button
+            className="mt-12 bg-transparent text-white"
+            style={{
+              border: "2px solid white",
+              padding: "20px 92px",
+              borderRadius: "88px",
+              fontSize: "20px",
+            }}
+          >
+            Book class
+          </button>
+        </div>
       </div>
 
       <Footer />
