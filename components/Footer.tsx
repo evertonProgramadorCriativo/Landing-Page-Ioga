@@ -29,6 +29,7 @@ export default function Footer() {
         </div>
 
         {/* Links */}
+
         <div>
           <h3 className="font-semibold mb-3">Support</h3>
           <ul className="space-y-2 text-white-600 text-sm">
@@ -43,19 +44,38 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-
-        {/* Social */}
-        <div className="flex flex-col">
-          <h3 className="font-semibold mb-3">Follow us</h3>
-          <div className="flex gap-4 text-white-600 text-sm">
-            <span>Instagram</span>
-            <span>Facebook</span>
-            <span>Twitter</span>
-          </div>
-          <div className="flex justify-around w-[82%] pt-4  ">
-            <Image src="/Inst_Icon.png" alt="" width={25} height={30} />
-            <Image src="/TG_Icon.png" alt="" width={25} height={30} />
-            <Image src="/twitter.jpg" alt="" width={25} height={30} />
+        <div className="flex justify-start lg:justify-around">
+          {/* Social */}
+          <div className="flex flex-col">
+            <h3 className="font-semibold mb-3">Follow us</h3>
+            <div className="  text-white-600 text-sm">
+              <span className="mr-4 mb-6">Instagram</span>
+              <span className="mr-4 mb-6">Facebook</span>
+              <span className="mr-4 mb-6">Twitter</span>
+            </div>
+            <div className="flex justify-around   ">
+              <Image
+                src="/Inst_Icon.png"
+                alt=""
+                className="mr-4 mt-6"
+                width={25}
+                height={30}
+              />
+              <Image
+                src="/TG_Icon.png"
+                alt=""
+                className="mr-4 mt-6"
+                width={25}
+                height={30}
+              />
+              <Image
+                src="/twitter.jpg"
+                alt=""
+                className="mr-4 mt-6"
+                width={25}
+                height={30}
+              />
+            </div>
           </div>
         </div>
       </div>

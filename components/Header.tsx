@@ -52,7 +52,7 @@ export default function Header() {
           </a>
 
           <button className="w-full bg-black text-white py-2 rounded-lg">
-            Join Now
+            WhatsApp
           </button>
         </div>
       )}
