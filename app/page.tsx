@@ -5,6 +5,7 @@ import CertificadosSection from "@/components/CertificadosSection";
 import TimeSection from "@/components/TimeSection";
 import PraticandoYogaSection from "@/components/PraticandoYogaSection";
 import AgendamentoSection from "@/components/AgendamentoSection";
+import PrincipiosBasicosYoga from "@/components/PrincipiosBasicosYoga";
 export default function Home() {
   return (
     <main>
@@ -14,6 +15,7 @@ export default function Home() {
       <TimeSection />
       <PraticandoYogaSection />
       <AgendamentoSection />
+      <PrincipiosBasicosYoga />
       <Footer />
     </main>
   );
