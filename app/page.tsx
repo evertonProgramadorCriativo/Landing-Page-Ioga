@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import CertificadosSection from "@/components/CertificadosSection";
 import TimeSection from "@/components/TimeSection";
 import PraticandoYogaSection from "@/components/PraticandoYogaSection";
+import AgendamentoSection from "@/components/AgendamentoSection";
 export default function Home() {
   return (
     <main>
@@ -12,6 +13,7 @@ export default function Home() {
       <CertificadosSection />
       <TimeSection />
       <PraticandoYogaSection />
+      <AgendamentoSection />
       <Footer />
     </main>
   );
