@@ -8,6 +8,8 @@ import AgendamentoSection from "@/components/AgendamentoSection";
 import PrincipiosBasicosYoga from "@/components/PrincipiosBasicosYoga";
 import AtmosphereSection from "@/components/AtmosferaSection";
 import HorarioDeAulaSemanalSection from "@/components/Horario_de_aula_semanal_Section";
+import ClienteEntrandoEmContatoForm from "@/components/ClienteEntrandoEmContatoForm";
+
 export default function Home() {
   return (
     <main>
@@ -20,6 +22,8 @@ export default function Home() {
       <PrincipiosBasicosYoga />
       <AtmosphereSection />
       <HorarioDeAulaSemanalSection />
+      <ClienteEntrandoEmContatoForm />
+
       <Footer />
     </main>
   );
