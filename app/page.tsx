@@ -6,6 +6,7 @@ import TimeSection from "@/components/TimeSection";
 import PraticandoYogaSection from "@/components/PraticandoYogaSection";
 import AgendamentoSection from "@/components/AgendamentoSection";
 import PrincipiosBasicosYoga from "@/components/PrincipiosBasicosYoga";
+import AtmosphereSection from "@/components/AtmosferaSection";
 export default function Home() {
   return (
     <main>
@@ -16,6 +17,7 @@ export default function Home() {
       <PraticandoYogaSection />
       <AgendamentoSection />
       <PrincipiosBasicosYoga />
+      <AtmosphereSection />
       <Footer />
     </main>
   );
